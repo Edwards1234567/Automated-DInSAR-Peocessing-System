@@ -1,0 +1,885 @@
+body
+{
+    font:           15px Arial;
+	font-weight:	bold;
+    margin:         0px;
+    text-align:     left;
+}
+
+#lic_cont_line
+{
+	width:			1740px;
+
+	padding-left:   10px;
+	text-align:		center;
+}
+
+#lic_coor_line
+{
+	width:			710px;
+
+	padding-left:   10px;
+	text-align:		center;
+}
+
+
+#lic_change_sel_title
+{
+	width:					20px;
+	height:					20px;
+
+	text-align:				center;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					left;
+}
+
+#lic_change_sel_title input.sel_all
+{
+	width:					14px;
+	height:					14px;
+}
+
+#lic_change_sel_cont
+{
+	width:					20px;
+	height:					20px;
+
+	text-align:				center;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					left;
+}
+
+#lic_change_sel_cont input.change_sel
+{
+	width:					14px;
+	height:					14px;
+}
+
+
+#lic_lic_id_title
+{
+	width:					180px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_corporation_title
+{
+	width:					130px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_coor_sys_all_title
+{
+	width:					20px;
+	height:					20px;
+
+	text-align:				center;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_coor_sys_all_title input.coors_sel_all
+{
+	width:					14px;
+	height:					14px;
+}
+
+#lic_location_title
+{
+	width:					130px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_mine_name_title
+{
+	width:					130px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_comp_type_title
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_mine_type_title
+{
+	width:					80px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_exp_method_title
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_prod_title
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_site_area_title
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_val_date_start_title
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_val_date_end_title
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_issue_id_title
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_issue_date_title
+{
+	width:					90px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_issue_dept_title
+{
+	width:					80px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_exp_dep_start_title
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_exp_dep_end_title
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#lic_site_coors_title
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+
+
+
+#lic_lic_id_cont
+{
+	width:					180px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_lic_id_cont input.txt_lic_id
+{
+	width:					180px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_corporation_cont
+{
+	width:					130px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_corporation_cont input.txt_lic_corp
+{
+	width:					130px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_corporation_cont select.opt_lic_comp_type
+{
+	width:					130px;
+	height:					20px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_location_cont
+{
+	width:					130px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_location_cont input.txt_lic_loc
+{
+	width:					130px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_mine_name_cont
+{
+	width:					130px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_mine_name_cont input.txt_lic_mine_name
+{
+	width:					130px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_comp_type_cont
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_comp_type_cont input.txt_lic_comp_type
+{
+	width:					100px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_mine_type_cont
+{
+	width:					80px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_mine_type_cont input.txt_lic_mine_type
+{
+	width:					80px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_exp_method_cont
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_exp_method_cont input.txt_lic_exp_meth
+{
+	width:					70px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_prod_cont
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_prod_cont input.txt_lic_prod
+{
+	width:					70px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_site_area_cont
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_site_area_cont input.txt_lic_site_area
+{
+	width:					70px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_val_date_start_cont
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_val_date_start_cont input.txt_lic_vdate_start
+{
+	width:					100px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_val_date_end_cont
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_val_date_end_cont input.txt_lic_vdate_end
+{
+	width:					100px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_issue_id_cont
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_issue_id_cont input.txt_lic_issue_id
+{
+	width:					70px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_issue_date_cont
+{
+	width:					90px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_issue_date_cont input.txt_lic_issue_date
+{
+	width:					90px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_issue_dept_cont
+{
+	width:					80px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_issue_dept_cont input.txt_lic_issue_dept
+{
+	width:					80px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_exp_dep_start_cont
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_exp_dep_start_cont input.txt_lic_dep_start
+{
+	width:					100px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#lic_exp_dep_end_cont
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_exp_dep_end_cont input.txt_lic_dep_end
+{
+	width:					100px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+#coor_info_cont
+{
+	width:					150px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#coor_info_cont select.opt_lic_comp_type
+{
+	width:					150px;
+	height:					20px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+	overflow:               auto;
+}
+
+
+#lic_site_coors_cont
+{
+	width:					100px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+	overflow:               auto;
+}
+
+#lic_coors_num_cont
+{
+	width:					0px;
+	height:					20px;
+
+	visibility:				hidden;
+
+	float:					left;
+	clear:					right;
+	overflow:               auto;
+}

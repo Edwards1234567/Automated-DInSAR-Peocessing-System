@@ -1,0 +1,148 @@
+body
+{
+    font:           14px Arial;
+    margin:         0px;
+    text-align:     left;
+}
+
+#login_head
+{
+    width:          780px;
+    height:         21px;
+
+    font-size:      14px;
+    font-weight:    bold;
+    text-align:     left;
+    color:          #999999;
+
+    padding-top:    5px;
+    padding-left:   20px;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #0000FF;
+    background:     url(../images/bg_td2.jpg);
+
+    clear:          both;
+}
+
+#login_body_frame
+{
+    width:          800px;
+    height:         89px;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #0000FF;
+}
+
+#login_body_left
+{
+    width:          8px;
+    height:         89px;
+
+    background:     url(../images/panel-left.gif);
+
+    clear:          left;
+    float:          left;
+}
+
+#login_body_center
+{
+    width:          781px;
+    height:         89px;
+
+    background:     url(../images/panel-left-center.gif);
+
+    clear:          none;
+    float:          left;
+}
+
+#login_body_right
+{
+    width:          11px;
+    height:         89px;
+
+    background:     url(../images/panel-right-all.gif);
+
+    clear:          right;
+    float:          left;
+}
+
+#login_tail
+{
+    width:          800px;
+    height:         21px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    padding-top:    1px;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #0000FF;
+    background:     url(../images/bg_td2.jpg);
+
+    clear:          both;
+}
+
+#login_tail input.yellow_btn
+{
+    width:          70px;
+    height:         20px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #0000CC;
+
+    background:     url(../images/bg_th.jpg);
+    border-style    :solid;
+    border-color:   #FFB062;
+    border-width:   1px;
+}
+
+#login_tail input.orange_btn
+{
+    width:          70px;
+    height:         20px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #999999;
+
+    background:     url(../images/orange_bg.gif);
+    border-style    :solid;
+    border-color:   #FFB062;
+    border-width:   1px;
+}
+
+#login_label
+{
+    font-size:      14px;
+    font-weight:    bold;
+    padding-left:   220px;
+    padding-top:    15px;
+
+    float:          left;
+    clear:          left;
+}
+
+#login_content
+{
+    font-size:      14px;
+    font-weight:    bold;
+    padding-right:  200px;
+    padding-top:    12px;
+
+    float:          right;
+    clear:          right;
+}
+
+#login_content input.login_text_box
+{
+    width:          220px;
+    height:         14px;
+}

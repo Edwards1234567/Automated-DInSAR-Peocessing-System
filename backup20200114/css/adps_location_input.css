@@ -1,0 +1,171 @@
+body
+{
+    font:           14px Arial;
+    margin:         0px;
+    text-align:     left;
+}
+
+#loc_cont_line
+{
+	width:			535px;
+
+	padding-left:   30px;
+	text-align:		center;
+}
+
+#loc_sensor_title
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				14px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					left;
+}
+
+#loc_track_title
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				14px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#loc_frame_title
+{
+	width:					70px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				14px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#loc_name_title
+{
+	width:					320px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				14px;
+	font-weight:			bold;
+
+	border-top:				2px;
+	border-top-style:		solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#loc_sensor_info
+{
+	width:					70px;
+	height:					18px;
+
+	text-align:				center;
+	font-size:				12px;
+	padding-top:            2px;
+
+	border-top:				thin;
+	border-bottom-style:	solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					left;
+}
+
+#loc_track_info
+{
+	width:					70px;
+	height:					18px;
+
+	text-align:				center;
+	font-size:				12px;
+	padding-top:            2px;
+
+	border-top:				thin;
+	border-bottom-style:	solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#loc_frame_info
+{
+	width:					70px;
+	height:					18px;
+
+	text-align:				center;
+	font-size:				12px;
+	padding-top:            2px;
+
+	border-top:				thin;
+	border-bottom-style:	solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#loc_name_info
+{
+	width:					320px;
+	height:					20px;
+
+	text-align:				center;
+	font-size:				12px;
+
+	border-top:				thin;
+	border-bottom-style:	solid;
+	border-bottom:  		thin;
+	border-bottom-style:	solid;
+	float:					left;
+	clear:					none;
+}
+
+#loc_name_info input.txt_loc_name
+{
+	width:					300px;
+	height:					18px;
+
+	border:					hidden;
+
+	text-align:				center;
+	font-size:				12px;
+}
+
+#loc_change_sel
+{
+	width:					0px;
+	height:					20px;
+
+	visibility:				hidden;
+
+	float:					left;
+	clear:					right;
+}

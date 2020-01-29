@@ -1,0 +1,1685 @@
+body
+{
+    font:           14px Arial;
+    margin:         0px;
+    text-align:     left;
+}
+
+#image_content_line
+{
+    width:          950px;
+    height:         16px;
+
+    text-align:     center;
+    font-size:      12px;
+}
+
+#image_notify_title
+{
+    width:          600px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          left;
+}
+
+#image_notify_content
+{
+    width:          600px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #FF0000;
+
+    background:     url(../images/bg_td1.jpg) repeat-x top;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    float:          left;
+    clear:          left;
+}
+
+
+#image_sel_title
+{
+    width:          30px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          left;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_sel_title input.small_check_box
+{
+    height:         10px;
+    width:          10px;
+}
+
+#image_sel_odd
+{
+    width:          30px;
+    height:         16px;
+
+    text-align:     center;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+
+    float:          left;
+    clear:          left;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_sel_odd input.small_check_box
+{
+    height:         10px;
+    width:          10px;
+}
+
+#image_sel_even
+{
+    width:          30px;
+    height:         16px;
+
+    text-align:     center;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          left;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_sel_even input.small_check_box
+{
+    height:         10px;
+    width:          10px;
+}
+
+
+#image_sensor_title
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_sensor_odd
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_sensor_even
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_date_title
+{
+    width:          83px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_date_odd
+{
+    width:          83px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_date_even
+{
+    width:          83px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_track_title
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_track_odd
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_track_even
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_frame_title
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_frame_odd
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_frame_even
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_heading_title
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_heading_odd
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_heading_even
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_polar_title
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_polar_odd
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_polar_even
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_lat_title
+{
+    width:          100px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_lat_odd
+{
+    width:          100px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_lat_even
+{
+    width:          100px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_lon_title
+{
+    width:          100px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_lon_odd
+{
+    width:          100px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_lon_even
+{
+    width:          100px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_angle_title
+{
+    width:          90px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_angle_odd
+{
+    width:          90px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_angle_even
+{
+    width:          90px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_prf_title
+{
+    width:          110px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_prf_odd
+{
+    width:          110px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_prf_even
+{
+    width:          110px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#image_rsr_title
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#image_rsr_odd
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#image_rsr_even
+{
+    width:          75px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+
+#pair_status_title
+{
+    width:          40px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_status_odd
+{
+    width:          40px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_status_even
+{
+    width:          40px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_bperp_title
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_bperp_odd
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_bperp_even
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_btemp_title
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_btemp_odd
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_btemp_even
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_sensor_title
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_sensor_odd
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_sensor_even
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_mdate_title
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_mdate_odd
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_mdate_even
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_sdate_title
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_sdate_odd
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_sdate_even
+{
+    width:          65px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_track_title
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_track_odd
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_track_even
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_mframe_title
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_mframe_odd
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_mframe_even
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_sframe_title
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_sframe_odd
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_sframe_even
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_heading_title
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_heading_odd
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_heading_even
+{
+    width:          50px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_polar_title
+{
+    width:          40px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_polar_odd
+{
+    width:          40px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_polar_even
+{
+    width:          40px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_lat_title
+{
+    width:          80px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_lat_odd
+{
+    width:          80px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_lat_even
+{
+    width:          80px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_lon_title
+{
+    width:          80px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_lon_odd
+{
+    width:          80px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_lon_even
+{
+    width:          80px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_angle_title
+{
+    width:          70px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_angle_odd
+{
+    width:          70px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_angle_even
+{
+    width:          70px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          none;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+
+#pair_rsr_title
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    font-weight:    bold;
+    text-align:     center;
+    color:          #00FF00;
+
+    background:     url(../images/bg_th.jpg);
+    background-position: 0px -10px;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
+
+#pair_rsr_odd
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+
+    background:     url(../images/bg_td2.jpg) repeat-x;
+}
+
+#pair_rsr_even
+{
+    width:          60px;
+    height:         16px;
+
+    font-size:      12px;
+    text-align:     center;
+    color:          #0000FF;
+
+    background:     url(../images/bg_td1.jpg) repeat-x;
+
+    float:          left;
+    clear:          right;
+
+    border-style:   solid;
+    border-width:   1px thin;
+    border-color:   #DDDDDD;
+}
